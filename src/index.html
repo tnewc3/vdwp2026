@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine? 💕</title>
+    <link rel="stylesheet" href="styles/style.css?v=2">
+</head>
+<body>
+    <div id="envelope-screen">
+        <div class="envelope">
+            <div class="envelope-flap"></div>
+            <div class="envelope-body">
+                <div class="letter-preview">
+                    <p class="name-text">Sophia</p>
+                </div>
+            </div>
+            <div id="wax-seal" class="wax-seal">
+                <div class="seal-inner">💕</div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="transition-screen" class="hidden">
+        <img src="/assets/heart-zoom.gif" alt="Hearts" class="heart-zoom-transition">
+    </div>
+    
+    <div id="landing-screen" class="hidden">
+        <h2 class="dear-text">Dear Sophia,</h2>
+    </div>
+    
+    <div id="cursor-sparkle"></div>
+    <div id="teasing-message" class="hidden"></div>
+    <div id="sus-cat" class="hidden">
+        <img src="../assets/sus-cat.gif" alt="Sus cat">
+    </div>
+    <div id="angry-cat" class="hidden">
+        <img src="../assets/angry-cat.gif" alt="Angry cat">
+    </div>
+    <div id="cat-stare" class="hidden">
+        <img src="../assets/cat-stare.gif" alt="Cat stare">
+    </div>
+    <div id="cat-flashbang" class="hidden">
+        <img src="../assets/cat-flashbang.gif" alt="Cat flashbang">
+    </div>
+    <div id="cat-tweaker" class="hidden">
+        <img src="../assets/cat-tweaker.gif" alt="Cat tweaker">
+    </div>
+    <div id="wack-cat" class="hidden">
+        <img src="../assets/wack-cat.gif" alt="Wack cat">
+    </div>
+    
+    <div class="container hidden">
+        <h1>Will you be my Valentine? 💖</h1>
+        <img src="../assets/cat_flowers.jpg" alt="Cute kitten with flowers" id="valentine-image">
+        <div class="buttons">
+            <button id="yes-button">Yes! 💕</button>
+            <button id="no-button">No 😿</button>
+        </div>
+    </div>
+    <div id="success-screen" class="hidden">
+        <h1>Yay! 💖</h1>
+        <p>Thank you for being my Valentine! 🌹</p>
+    </div>
+    
+    <div id="dance-screen" class="hidden">
+        <img id="cat-dance" src="../assets/cat-dance.gif" alt="Dancing cat">
+    </div>
+    <div id="serious-message" class="hidden">
+        <h1 class="serious-text">Okay, time to get serious...</h1>
+    </div>    
+    <div id="letter-screen" class="hidden">
+        <div class="parchment">
+            <div class="letter-content">
+                <p class="timer-text" id="timer-text"></p>
+                <p class="greeting">Sophia, my love,</p>
+                
+                <p>It's officially our second Valentine's Day together. This year I wanted to do something special. Let me give you some backstory first.</p>
+                
+                <p>The year is 2024, and I see this beautiful girl walk into Web Design. I've seen her before, but my eyes still grow big. She's also a tutor for my other class, and I can't stop glancing at her. One day I ask for her number, and I get it—I'm in shock.</p>
+                
+                <p>Fast forward to the week of Valentine's Day. Dr. Cook makes an announcement: "This would be a good time to ask out that special someone for Valentine's Day." My brain lights up. I've wasted too much time being scared. I ask this lovely lady out on a date to a spot that still remains a staple in our lives.</p>
+                
+                <p>Every day that followed has been wonderful. Even the bad days can't outweigh the good. I have so much love and admiration for you. You are more than just a beautiful, funny, smart, and kind woman. You are an inspiration to me and others. You have made me a better man, and being with you makes me want to try harder for both you and myself.</p>
+                
+                <p>Getting to be a part of your journey through life, even in this short time, has been incredible, and I love seeing you pursue your passions and dreams. I am so lucky to be able to call you mine.</p>
+                
+                <p class="closing">Happy Valentine's Day to my special girl.</p>
+                
+                <p class="signature">I love you forever and always,<br>- Payton</p>
+            </div>
+        </div>
+    </div>    
+    <audio id="yes-sound" src="../assets/yay_sound.mp3" preload="auto"></audio>
+    <audio id="letsgo-sound" src="../assets/letsgo.mp3" preload="auto"></audio>
+    <audio id="sus-sound" src="../assets/sus.mp3" preload="auto"></audio>
+    <audio id="boom-sound" src="../assets/boom.mp3" preload="auto"></audio>
+    <audio id="boom-boosted-sound" src="../assets/boom_boosted.mp3" preload="auto"></audio>
+    <audio id="twinkle-sound" src="../assets/twinkle.mp3" preload="auto"></audio>
+    <audio id="letter-sound" src="../assets/letter.mp3" preload="auto"></audio>
+    <audio id="mail-sound" src="../assets/mail.mp3" preload="auto" muted autoplay></audio>
+    <audio id="flashbang-sound" src="../assets/flashbang.mp3" preload="auto"></audio>
+    <audio id="u-better-stop-sound" src="../assets/u-better-stop.mp3" preload="auto"></audio>
+    <audio id="undertaker-sound" src="../assets/undertaker.mp3" preload="auto"></audio>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
