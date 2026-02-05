@@ -227,7 +227,7 @@ body {
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
-    background-image: url('/assets/heart-zoom.gif');
+    background-image: url('assets/heart-zoom.gif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
