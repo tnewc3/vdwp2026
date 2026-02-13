@@ -1015,3 +1015,68 @@ body::before {
     position: relative;
     z-index: 10;
 }
+/* Photo Gallery Styles */
+.photo-gallery {
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.left-gallery {
+    left: 20px;
+    top: 0;
+}
+
+.right-gallery {
+    right: 20px;
+    top: 0;
+}
+
+.photo-scroll {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    animation: scroll-down 40s linear infinite;
+}
+
+@keyframes scroll-down {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-50%);
+    }
+}
+
+.polaroid {
+    background: white;
+    padding: 12px;
+    padding-bottom: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+    width: 180px;
+    flex-shrink: 0;
+}
+
+.polaroid:nth-child(odd) {
+    transform: rotate(-2deg);
+}
+
+.polaroid:nth-child(even) {
+    transform: rotate(2deg);
+}
+
+.polaroid:hover {
+    transform: rotate(0deg) scale(1.05);
+    z-index: 10;
+}
+
+.polaroid img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
